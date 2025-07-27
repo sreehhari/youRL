@@ -1,0 +1,73 @@
+# === System ===
+.DS_Store
+Thumbs.db
+
+# === Java ===
+*.class
+*.log
+*.tmp
+*.out
+
+# === Build Output ===
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === Maven ===
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+# === Gradle ===
+.gradle/
+!gradle-wrapper.jar
+gradle-app.setting
+
+# === Logs ===
+logs/
+*.log
+
+# === Environment Files ===
+.env
+.env.*
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# === STS / Eclipse ===
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === VS Code ===
+.vscode/
+
+# === Others ===
+*.swp
+*.swo
+
+# === Local Dev Stuff ===
+/h2-db/
+/uploads/
+/tmp/
+HELP.md
